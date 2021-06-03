@@ -24,6 +24,7 @@ struct ContentView: View {
             }) {
                 Text("Button")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .padding()
             }
         }
     }
