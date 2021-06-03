@@ -18,6 +18,7 @@ struct ContentView: View {
             } else {
                 Text("")
                     .padding()
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             }
             Button(action:{
                 isTextShowing.toggle()
