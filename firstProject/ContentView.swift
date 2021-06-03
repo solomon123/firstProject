@@ -23,6 +23,7 @@ struct ContentView: View {
                 isTextShowing.toggle()
             }) {
                 Text("Button")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             }
         }
     }
