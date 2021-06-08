@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if isTextShowing {
-                Text("I love you hun!")
+                Text("I love Ruth's Coffee!")
                     .padding()
             } else {
                 Text("")
